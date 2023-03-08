@@ -62,3 +62,24 @@ console.log(changeFruit(fruit));
 
 // The value of fruit after calling the function changeFruit will be ["apple","mango", "orange"]
 
+// question 4
+
+const arrayOfNum = (array) => {
+    let maxNum = -Infinity;
+    for (let i = 0; i < array.length; i++) {
+        if (typeof array[i] === 'number') {
+           maxNum = Math.max(maxNum, array[i]);
+        }
+    }
+    return maxNum;
+}
+
+console.log(arrayOfNum([9, 16, 12, 28, 7]));
+
+// question 5
+
+// Write a function called valTimesIndex which accepts an array of numbers and returns a new array with each value multiplied by the index it is at in the array
+
+const valTimesIndex = () => {
+    
+}
